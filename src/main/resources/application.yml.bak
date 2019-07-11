@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl
+logging:
+  pattern:
+    console: "%d - %msg%n"
+ # path: D:\rizhiwenjian
+  file: D:\rizhiwenjian\sell.log
